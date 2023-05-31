@@ -77,7 +77,6 @@ function Header() {
                             <div>
                                 <div className="header-controls-pics">
                                     <div data-id="search-expander" className="header-controls-pic header-controls-search" onClick={handlerSearchVisible}></div>
-                                    {/* Do programmatic navigation on click to /cart.html */}
                                     <div className="header-controls-pic header-controls-cart" onClick={handlerToCart}>
                                         {quantity > 0 ? <div className="header-controls-cart-full">{quantity}</div> : null}
                                         <div className="header-controls-cart-menu"></div>
